@@ -1,9 +1,9 @@
-package edu.wit.sheltonz.forecast.screens.controllers;
+package com.forecast.executable.screens.controllers;
 
-import edu.wit.sheltonz.forecast.Controller;
-import edu.wit.sheltonz.forecast.Main;
-import edu.wit.sheltonz.forecast.lib.PluginStub;
-import edu.wit.sheltonz.forecast.screens.ProjectsScreen;
+import com.forecast.executable.Controller;
+import com.forecast.executable.Main;
+import com.forecast.lib.PluginStub;
+import com.forecast.executable.screens.ProjectsScreen;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -19,7 +19,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.nio.file.Files;
 
 /**
- * Created by sheltonz on 3/31/2017.
+ * Created by Zachary on 3/31/2017.
  */
 public class PluginsController implements Controller {
 

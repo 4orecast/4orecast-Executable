@@ -1,4 +1,4 @@
-package edu.wit.sheltonz.forecast;
+package com.forecast.executable;
 
 import java.io.*;
 

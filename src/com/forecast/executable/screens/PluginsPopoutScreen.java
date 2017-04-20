@@ -1,7 +1,7 @@
-package edu.wit.sheltonz.forecast.screens;
+package com.forecast.executable.screens;
 
-import edu.wit.sheltonz.forecast.PopoutScreen;
-import edu.wit.sheltonz.forecast.screens.controllers.PluginsPopoutController;
+import com.forecast.executable.PopoutScreen;
+import com.forecast.executable.screens.controllers.PluginsPopoutController;
 
 /**
  * Created by Zachary on 4/9/2017.

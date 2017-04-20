@@ -1,12 +1,12 @@
-package edu.wit.sheltonz.forecast;
+package com.forecast.executable;
 
-import edu.wit.sheltonz.forecast.lib.PluginManager;
-import edu.wit.sheltonz.forecast.lib.data.DataStructure;
-import edu.wit.sheltonz.forecast.lib.graph.DataAlias;
-import edu.wit.sheltonz.forecast.lib.prediction.Prediction;
-import edu.wit.sheltonz.forecast.projects.ProjectManager;
-import edu.wit.sheltonz.forecast.screens.ProjectsScreen;
-import edu.wit.sheltonz.forecast.screens.WelcomeScreen;
+import com.forecast.lib.PluginManager;
+import com.forecast.lib.data.DataStructure;
+import com.forecast.lib.graph.DataAlias;
+import com.forecast.lib.prediction.Prediction;
+import com.forecast.executable.projects.ProjectManager;
+import com.forecast.executable.screens.ProjectsScreen;
+import com.forecast.executable.screens.WelcomeScreen;
 import javafx.application.Application;
 import javafx.scene.image.Image;
 import javafx.stage.Modality;
@@ -16,7 +16,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * Created by sheltonz on 3/22/2017.
+ * Created by Zachary on 3/22/2017.
  */
 public class Main extends Application {
 

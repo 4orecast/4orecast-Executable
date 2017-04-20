@@ -1,7 +1,7 @@
-package edu.wit.sheltonz.forecast.screens.controllers;
+package com.forecast.executable.screens.controllers;
 
-import edu.wit.sheltonz.forecast.PopoutController;
-import edu.wit.sheltonz.forecast.PopoutScreen;
+import com.forecast.executable.PopoutController;
+import com.forecast.executable.PopoutScreen;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextArea;
 

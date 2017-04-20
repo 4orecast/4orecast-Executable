@@ -1,6 +1,6 @@
-package edu.wit.sheltonz.forecast;
+package com.forecast.executable;
 
-import edu.wit.sheltonz.forecast.screens.ErrorPopoutScreen;
+import com.forecast.executable.screens.ErrorPopoutScreen;
 
 import java.io.IOException;
 

@@ -1,12 +1,12 @@
-package edu.wit.sheltonz.forecast.screens.controllers;
+package com.forecast.executable.screens.controllers;
 
-import edu.wit.sheltonz.forecast.Main;
-import edu.wit.sheltonz.forecast.PopoutController;
-import edu.wit.sheltonz.forecast.PopoutScreen;
-import edu.wit.sheltonz.forecast.projects.Project;
-import edu.wit.sheltonz.forecast.projects.ProjectStub;
-import edu.wit.sheltonz.forecast.screens.ErrorPopoutScreen;
-import edu.wit.sheltonz.forecast.screens.MainScreen;
+import com.forecast.executable.Main;
+import com.forecast.executable.PopoutController;
+import com.forecast.executable.PopoutScreen;
+import com.forecast.executable.projects.Project;
+import com.forecast.executable.projects.ProjectStub;
+import com.forecast.executable.screens.ErrorPopoutScreen;
+import com.forecast.executable.screens.MainScreen;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 

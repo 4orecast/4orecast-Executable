@@ -1,7 +1,7 @@
-package edu.wit.sheltonz.forecast.screens;
+package com.forecast.executable.screens;
 
-import edu.wit.sheltonz.forecast.Screen;
-import edu.wit.sheltonz.forecast.screens.controllers.NewProjectController;
+import com.forecast.executable.Screen;
+import com.forecast.executable.screens.controllers.NewProjectController;
 
 /**
  * Created by Zachary on 4/3/2017.

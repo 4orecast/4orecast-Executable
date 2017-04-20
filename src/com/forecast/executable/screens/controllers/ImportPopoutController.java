@@ -1,12 +1,12 @@
-package edu.wit.sheltonz.forecast.screens.controllers;
+package com.forecast.executable.screens.controllers;
 
-import edu.wit.sheltonz.forecast.Main;
-import edu.wit.sheltonz.forecast.PopoutController;
-import edu.wit.sheltonz.forecast.PopoutScreen;
-import edu.wit.sheltonz.forecast.lib.PluginStub;
-import edu.wit.sheltonz.forecast.lib.data.DataStructure;
-import edu.wit.sheltonz.forecast.lib.graph.DataAlias;
-import edu.wit.sheltonz.forecast.lib.graph.DataPoint;
+import com.forecast.executable.Main;
+import com.forecast.executable.PopoutController;
+import com.forecast.executable.PopoutScreen;
+import com.forecast.lib.PluginStub;
+import com.forecast.lib.data.DataStructure;
+import com.forecast.lib.graph.DataAlias;
+import com.forecast.lib.graph.DataPoint;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.fxml.FXML;
@@ -18,7 +18,7 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * Created by sheltonz on 4/5/2017.
+ * Created by Zachary on 4/5/2017.
  */
 public class ImportPopoutController extends PopoutController {
 

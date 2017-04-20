@@ -1,4 +1,4 @@
-package edu.wit.sheltonz.forecast;
+package com.forecast.executable;
 
 /**
  * Created by Zachary on 4/5/2017.

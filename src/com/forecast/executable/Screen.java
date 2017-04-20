@@ -1,4 +1,4 @@
-package edu.wit.sheltonz.forecast;
+package com.forecast.executable;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -7,7 +7,7 @@ import javafx.scene.Scene;
 import java.io.IOException;
 
 /**
- * Created by sheltonz on 3/31/2017.
+ * Created by Zachary on 3/31/2017.
  */
 public class Screen {
 

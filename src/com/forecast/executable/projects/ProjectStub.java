@@ -1,4 +1,4 @@
-package edu.wit.sheltonz.forecast.projects;
+package com.forecast.executable.projects;
 
 import java.io.Serializable;
 

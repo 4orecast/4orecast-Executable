@@ -1,10 +1,10 @@
-package edu.wit.sheltonz.forecast.screens;
+package com.forecast.executable.screens;
 
-import edu.wit.sheltonz.forecast.PopoutScreen;
-import edu.wit.sheltonz.forecast.screens.controllers.ImportPopoutController;
+import com.forecast.executable.PopoutScreen;
+import com.forecast.executable.screens.controllers.ImportPopoutController;
 
 /**
- * Created by sheltonz on 4/5/2017.
+ * Created by Zachary on 4/5/2017.
  */
 public class ImportPopoutScreen extends PopoutScreen {
 

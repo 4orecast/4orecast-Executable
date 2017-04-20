@@ -1,6 +1,6 @@
-package edu.wit.sheltonz.forecast.projects;
+package com.forecast.executable.projects;
 
-import edu.wit.sheltonz.forecast.lib.graph.DataPoint;
+import com.forecast.lib.graph.DataPoint;
 
 import java.io.Serializable;
 import java.util.ArrayList;

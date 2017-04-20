@@ -1,7 +1,7 @@
-package edu.wit.sheltonz.forecast.projects;
+package com.forecast.executable.projects;
 
-import edu.wit.sheltonz.forecast.Main;
-import edu.wit.sheltonz.forecast.Util;
+import com.forecast.executable.Main;
+import com.forecast.executable.Util;
 
 import java.io.File;
 import java.io.IOException;

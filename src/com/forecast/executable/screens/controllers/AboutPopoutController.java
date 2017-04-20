@@ -1,9 +1,9 @@
-package edu.wit.sheltonz.forecast.screens.controllers;
+package com.forecast.executable.screens.controllers;
 
-import edu.wit.sheltonz.forecast.Main;
-import edu.wit.sheltonz.forecast.PopoutController;
-import edu.wit.sheltonz.forecast.PopoutScreen;
-import edu.wit.sheltonz.forecast.lib.ForecastLibrary;
+import com.forecast.executable.Main;
+import com.forecast.executable.PopoutController;
+import com.forecast.executable.PopoutScreen;
+import com.forecast.lib.ForecastLibrary;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 

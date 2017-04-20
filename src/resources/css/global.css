@@ -1,0 +1,56 @@
+.button:default {
+    -fx-text-fill: white;
+    -fx-background-color: #725e8f;
+}
+
+.button:default:hover {
+    -fx-text-fill: white;
+    -fx-background-color: #967fb9;
+}
+
+.button:default:pressed {
+    -fx-text-fill: white;
+    -fx-background-color: #a98dcd;
+}
+
+.root {
+    -fx-font-family: "Tahoma";
+    -fx-accent: #a38cc8;
+    -fx-focus-color: #c3aaeb;
+}
+
+.progress-bar {
+    -fx-background-color: #725e8f;
+}
+
+.button-import {
+    -fx-border-color: #c4c4c4;
+    -fx-border-width: 1;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+}
+
+.button-import:hover {
+    -fx-background-color: #c4c4c4;
+    -fx-border-color: #c4c4c4;
+    -fx-border-width: 1;
+}
+
+.button-import:pressed {
+    -fx-background-color: #a5a5a5;
+    -fx-border-color: #c4c4c4;
+    -fx-border-width: 1;
+}
+
+.chart-series-line {
+    -fx-stroke-width: 2px;
+    -fx-effect: null;
+}
+
+.default-color0.chart-series-line {
+    -fx-stroke: #a38cc8;
+}
+
+.remove-focus-box {
+    -fx-focus-color: transparent;
+}

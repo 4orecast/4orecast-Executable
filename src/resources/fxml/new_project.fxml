@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="20.0" layoutY="64.0" stylesheets="@../css/global.css" text="Project name:"/>
+        <TextField fx:id="nameTextField" layoutX="105.0" layoutY="60.0" onKeyTyped="#projectNameChange"
+                   prefHeight="25.0" prefWidth="275.0"/>
+        <TextField fx:id="locationTextField" layoutX="115.0" layoutY="100.0" prefHeight="25.0" prefWidth="265.0"/>
+        <Label layoutX="20.0" layoutY="104.0" stylesheets="@../css/global.css" text="Project location:"/>
+        <Button defaultButton="true" layoutX="315.0" layoutY="361.0" mnemonicParsing="false"
+                onAction="#continueButtonClick" text="Continue"/>
+    </children>
+</AnchorPane>

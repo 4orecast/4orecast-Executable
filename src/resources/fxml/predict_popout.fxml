@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="300.0" prefWidth="300.0" stylesheets="@../css/global.css" xmlns="http://javafx.com/javafx/8"
+            xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ComboBox fx:id="axisBox" layoutX="129.0" layoutY="145.0" prefHeight="27.0" prefWidth="141.0"
+                  styleClass="button-import"/>
+        <Label layoutX="30.0" layoutY="150.0" text="Axis for Value:"/>
+        <Label layoutX="30.0" layoutY="189.0" text="Value:"/>
+        <TextField fx:id="valueField" layoutX="83.0" layoutY="185.0" prefHeight="25.0" prefWidth="187.0"/>
+        <ComboBox fx:id="methodBox" layoutX="95.0" layoutY="25.0" prefHeight="27.0" prefWidth="175.0"
+                  styleClass="button-import"/>
+        <Label layoutX="30.0" layoutY="30.0" text="Method:"/>
+        <Button defaultButton="true" layoutX="124.0" layoutY="246.0" mnemonicParsing="false"
+                onAction="#predictButtonClick" text="Predict"/>
+        <Label layoutX="30.0" layoutY="70.0" text="X-Axis Alias:" prefWidth="70"/>
+        <ComboBox fx:id="aliasXBox" layoutX="115.0" layoutY="65.0" prefWidth="156.0" styleClass="button-import"/>
+        <ComboBox fx:id="aliasYBox" layoutX="115.0" layoutY="105.0" prefWidth="156.0" styleClass="button-import"/>
+        <Label layoutX="30.0" layoutY="110.0" text="Y-Axis Alias:"/>
+    </children>
+</AnchorPane>

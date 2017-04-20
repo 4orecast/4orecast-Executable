@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="300.0" prefWidth="300.0" stylesheets="@../css/global.css"
+            xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <ComboBox fx:id="structureBox" layoutX="119.0" layoutY="26.0" prefWidth="167.0" styleClass="button-import"/>
+        <Label layoutX="17.0" layoutY="31.0" text="Data Structure:"/>
+        <Label layoutX="17.0" layoutY="107.0" text="X-Axis Alias:"/>
+        <ComboBox fx:id="aliasXBox" layoutX="112.0" layoutY="102.0" prefHeight="27.0" prefWidth="174.0"
+                  styleClass="button-import"/>
+        <Label layoutX="17.0" layoutY="175.0" text="Y-Axis Alias:"/>
+        <ComboBox fx:id="aliasYBox" layoutX="112.0" layoutY="175.0" prefHeight="27.0" prefWidth="174.0"
+                  styleClass="button-import"/>
+        <Button defaultButton="true" layoutX="117.0" layoutY="261.0" mnemonicParsing="false" onAction="#openButtonClick"
+                text="Open File"/>
+    </children>
+</AnchorPane>

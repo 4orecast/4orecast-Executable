@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="550.0" prefWidth="800.0" stylesheets="@../css/global.css"
+            xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <LineChart fx:id="lineChart" createSymbols="false" layoutX="210.0" layoutY="25.0" legendVisible="false"
+                   prefHeight="524.0" prefWidth="590.0">
+            <xAxis>
+                <CategoryAxis side="BOTTOM"/>
+            </xAxis>
+            <yAxis>
+                <NumberAxis side="LEFT"/>
+            </yAxis>
+        </LineChart>
+        <ScrollPane layoutY="25.0" prefHeight="475.0" prefWidth="200.0" styleClass="remove-focus-box">
+            <content>
+                <ListView fx:id="listView" prefHeight="473.0" prefWidth="198.0"/>
+            </content>
+        </ScrollPane>
+        <Button defaultButton="true" layoutX="14.0" layoutY="512.0" mnemonicParsing="false"
+                onAction="#importButtonClick" text="Import"/>
+        <MenuBar prefHeight="25.0" prefWidth="800.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#newProjectItemClick" text="New Project"/>
+                        <MenuItem mnemonicParsing="false" onAction="#openProjectItemClick" text="Open Project"/>
+                        <MenuItem mnemonicParsing="false" onAction="#managePluginsItemClick" text="Manage Plugins"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#deleteDataItemClick" text="Delete Data Point"/>
+                        <MenuItem mnemonicParsing="false" onAction="#clearDataItemClick" text="Clear Data Points"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#aboutItemClick" text="About"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <Button layoutX="173.0" layoutY="511.0" mnemonicParsing="false" onAction="#predictionButtonClick"
+                styleClass="button-import" text="+">
+            <tooltip>
+                <Tooltip text="Add a prediction"/>
+            </tooltip>
+        </Button>
+    </children>
+</AnchorPane>
